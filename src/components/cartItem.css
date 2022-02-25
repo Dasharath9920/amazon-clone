@@ -1,0 +1,21 @@
+.cart-item {
+  height: 200px;
+  width: 1000px;
+  padding: 10px 20px 10px 50px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cart-item > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0px 30px;
+}
+
+.product-info > p:nth-child(1) {
+  line-height: 18px;
+}
